@@ -15,7 +15,7 @@ const About = ({ theme }) => {
         <Heading heading="about me" description="Here's my story." />
         <div className="description">
           <p className="about_me_descrition">
-            I’m Shyam, a developer, creative coder, blogger and self-proclaimed
+            I’m Ricardo Urvina, a developer, creative coder, blogger and self-proclaimed
             designer who specializes in front-end development. My mission is to
             translate user-focussed designs into pixel-perfect websites or
             applications that run blazing fast.

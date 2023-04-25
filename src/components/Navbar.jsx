@@ -22,12 +22,12 @@ const Navbar = ({ theme, setTheme }) => {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      document.title = "Shyam Tala-Frontend Developer";
+      document.title = "Ricardo Urvina FullStack Developer";
     } else {
       let getLocation = String(location.pathname).slice(1);
       getLocation =
         getLocation.slice(0, 1).toUpperCase() + getLocation.slice(1);
-      document.title = `Shyam Tala - ${getLocation}`;
+      document.title = `Ricardo Urvina - ${getLocation}`;
     }
   }, [location]);
 
