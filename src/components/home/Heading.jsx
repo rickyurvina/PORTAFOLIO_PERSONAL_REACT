@@ -1,5 +1,4 @@
 import React from "react";
-import devImage from "../../assets/shyam tala.webp";
 import devImage2 from "../../assets/rickyurvina.jpg"
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
