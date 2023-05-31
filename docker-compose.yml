@@ -1,0 +1,16 @@
+services:
+
+    frontend:
+        image: portfolio
+        container_name: "portfolio_frontend"
+        volumes: 
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+        ports: 
+            - '80:80' 
+        networks:
+            - private
+
+# Docker Networks
+networks:
+    private:
+        driver: bridge
