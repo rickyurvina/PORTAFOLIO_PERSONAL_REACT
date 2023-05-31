@@ -98,14 +98,14 @@ const Navbar = ({ theme, setTheme }) => {
           >
             projects
           </Link>
-          <Link
+          {/* <Link
             to="/blogs"
             className={`nav-link ${
               location.pathname === "/blogs" ? "active" : ""
             }`}
           >
             blog
-          </Link>
+          </Link> */}
         </div>
 
         {/* theme toggler */}
@@ -163,14 +163,14 @@ const Navbar = ({ theme, setTheme }) => {
             >
               projects
             </Link>
-            <Link
+            {/* <Link
               to="/blogs"
               className={`responsive_nav_link ${
                 location.pathname === "/blogs" ? "active" : ""
               }`}
             >
               blog
-            </Link>
+            </Link> */}
 
             <button
               className="theme_toggler"

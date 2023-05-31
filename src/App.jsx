@@ -49,10 +49,10 @@ function App() {
             exact
             element={<Projects theme={theme} />}
           ></Route>
-          <Route path="/blogs" exact element={<Blogs theme={theme} />}></Route>
+          {/* <Route path="/blogs" exact element={<Blogs theme={theme} />}></Route> */}
 
           {/* all blogs route */}
-          <Route
+          {/* <Route
             path="/iife"
             exact
             element={<Iife theme={theme}></Iife>}
@@ -66,7 +66,7 @@ function App() {
             path="/hoisting"
             exact
             element={<Hoisting theme={theme} />}
-          ></Route>
+          ></Route> */}
         </Routes>
         <Footer theme={theme} />
       </Router>

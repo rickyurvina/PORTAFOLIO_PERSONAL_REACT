@@ -32,7 +32,7 @@ main {
 }
 
 .heading {
-    padding-top: 6rem;
+    padding-top: 4rem;
     width: 100%;
     display: grid;
     gap: 2rem;

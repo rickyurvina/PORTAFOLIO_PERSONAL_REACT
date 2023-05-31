@@ -62,7 +62,7 @@ const Footer = ({ theme }) => {
   return (
     <footer className={`${theme === "dark" ? "dark" : "light"}`}>
       <hr />
-      <div className="footer_content">
+      {/* <div className="footer_content">
         <div className="footer_links">
           <div className="link_list">
             <p className="link_heading">general</p>
@@ -128,23 +128,23 @@ const Footer = ({ theme }) => {
             )}
           </div>
         </form>
-      </div>
+      </div> */}
 
       <div className="footer_bottom">
-        <p className="author">© {new Date().getFullYear()} Shyam Tala</p>
+        <p className="author">© {new Date().getFullYear()} Ricardo Urvina Córdova</p>
         <div className="social_links">
-          <Link to="https://github.com/shyamtala003">
+          <Link to="https://github.com/rickyurvina">
             <i className="ri-github-fill"></i>
           </Link>
-          <Link to="https://www.linkedin.com/in/shyam-tala-666828169/">
+          <Link to="https://www.linkedin.com/in/ricardo-urvina-142222182/">
             <i className="ri-linkedin-fill"></i>
           </Link>
-          <Link to="https://m.facebook.com/100011975868953/">
+          {/* <Link to="https://m.facebook.com/100011975868953/">
             <i className="ri-facebook-fill"></i>
           </Link>
           <Link to="https://www.instagram.com/shyamtala_official/">
             <i className="ri-instagram-line"></i>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>
