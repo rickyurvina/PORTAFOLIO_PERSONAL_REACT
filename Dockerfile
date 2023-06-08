@@ -13,4 +13,3 @@ COPY nginx.conf /etc/nginx/conf.d/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=node /usr/src/app/dist /usr/share/nginx/html
 EXPOSE 80
-
