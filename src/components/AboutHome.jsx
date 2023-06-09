@@ -25,7 +25,7 @@ const About = ({ theme }) => {
             utilizing Microsoft Azure and AWS. Additionally, my proficiency extends to database administration,
             API integration, and DevOps practices. I am a dedicated and motivated professional,
             committed to delivering high-quality code and driving technological advancements.
-            With a strong aptitude for problem-solving and a collaborative mindset,
+            With a strong aptitude for problem-solving and a collaborative mindset.
           </p>
 
           <ul className="about_me_list">
