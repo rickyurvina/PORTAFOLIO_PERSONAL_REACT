@@ -1,11 +1,19 @@
 import React from "react";
-import blog1Image from "../../assets/blog_images/iife.png";
-import blog2Image from "../../assets/blog_images/excecontext.webp";
-import blog3Image from "../../assets/blog_images/hoisting.webp";
-import { Link } from "react-router-dom";
+import slam from "../../assets/blog_images/slam.png";
+import nmpc from "../../assets/blog_images/nmpc.png";
 import Blogcard from "./Blogcard";
-
+import slamPdf from "../../assets/papers/slam.pdf";
+import nmpcPdf from "../../assets/papers/nmpc.pdf";
 const Blog = ({ theme }) => {
+  const handleCardClick = (filePath) => {
+    const link = document.createElement("a");
+    link.href = filePath;
+    link.download = filePath.split("/").pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <section
@@ -16,30 +24,27 @@ const Blog = ({ theme }) => {
 
         <div className="blogs_container">
           <Blogcard
-            blogLink="/iife"
-            blogImage={blog1Image}
-            blogHeading="Immediately Invoked Function Expression (IIFE)"
-            blogPublishedDate="June 11, 2022"
+            blogImage={slam}
+            blogHeading="Simultaneous location and mapping for control of an autonomous mobile robot using LiDAR point cloud scans and Machine Learning methods"
+            blogPublishedDate="Sep, 2022 (Under Publication- Ingeneriare, Chile)"
+            onClick={() => handleCardClick(nmpcPdf)}
           ></Blogcard>
 
           <Blogcard
-            blogLink="/Excecontext"
-            blogImage={blog2Image}
-            blogHeading="What is an Execution Context in JavaScript?"
-            blogPublishedDate="February 8,2022"
+            blogImage={nmpc}
+            blogHeading="An Nonlinear Model Predictive Control Framework
+            for Trajectory Planning of Skid-Steer Mobile
+            Robots in Agricultural Environments"
+            blogPublishedDate="July, 2023 (Under revision-  IEEE CONFERENCE ON AGRIFOOD ELECTRONICS - CAFE TORINO, SEPTEMBER 25-27)"
+            onClick={() => handleCardClick(slamPdf)}
           ></Blogcard>
 
-          <Blogcard
-            blogLink="/hoisting"
-            blogImage={blog3Image}
-            blogHeading="What is Hoisting in JavaScript?🤔"
-            blogPublishedDate="April 21,2022"
-          ></Blogcard>
+     
         </div>
 
-        <Link to="/blog" className="blog_link">
+        {/* <Link to="/blog" className="blog_link">
           See all articles<i className="ri-arrow-right-s-line"></i>
-        </Link>
+        </Link> */}
       </section>
     </>
   );

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-const Blogcard = ({ blogLink, blogImage, blogHeading, blogPublishedDate }) => {
+const Blogcard = ({ blogLink, blogImage, blogHeading, blogPublishedDate, onClick }) => {
   return (
     <>
-      <Link to={blogLink} className="blog_card">
+      <Link className="blog_card" onClick={onClick}>
         <div className="card_img">
           {/* <img src={blogImage} alt="blog"></img> */}
           <LazyLoadImage
