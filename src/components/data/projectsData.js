@@ -8,8 +8,6 @@ import api_web_q_a from "../../assets/project_images/api_web_q_a.webp";
 import congope from "../../assets/project_images/congope.webp";
 import workshop from "../../assets/project_images/workshop.webp";
 import api_financiero from "../../assets/project_images/api_financiero.webp";
-import p2Image from "../../assets/project_images/p2.webp";
-import p1Image from "../../assets/project_images/p2.webp";
 import notAvailable from "../../assets/project_images/not_available.webp";
 
 const projectsData = [
@@ -69,7 +67,7 @@ const projectsData = [
     {
         projectImage: chatdoc,
         projectTitle: "Chat with your documents",
-        projectDescription: "",
+        projectDescription: "I develop a React application using Next.js that uses the OpenAI API, LangChaining, MongoDB and Pinecone. This application provides a unique platform for users to chat while viewing and manipulating documents. Users can create multiple topics to discuss and participate in real-time conversations. The application features seamless integration with Google OAuth for secure user authentication and stores chat logs in MongoDB associated with each user's email. One of the key features is the ability to upload multiple file types, including PDF, DOCX, and TXT formats, for each theme. These files are then converted to embeds and stored in a namespace within Pinecone. Users can easily access and retrieve these document embeds during their chat sessions, allowing for efficient document referencing and cheating. The application supports the creation of multiple chat windows for each topic, which facilitates organized and context-specific discussions. Users can effortlessly upload files, convert them to embeds, store them in Pinecone, and retrieve them in real time during their chat conversations. Additionally, integration with MongoDB ensures that chat histories are automatically saved and easily accessible for future reference.",
         liveLinkUrl: "https://thepalette.vercel.app/",
         linkBtnText: "Visit ThePalletes",
         githubLink: "https://github.com/rickyurvina/doc-chatbot"
@@ -77,7 +75,7 @@ const projectsData = [
     {
         projectImage: api_web_q_a,
         projectTitle: "Chat with your Web Page-API",
-        projectDescription: "",
+        projectDescription: "WebQA-API offers a state-of-the-art Q&A endpoint for web pages. Processes incoming JSON post requests that contain data from the web page and user questions. The API initially starts by chunking the data on a web page and requesting OpenAI embeds. Obtained embeds and fragmented web page documents are temporarily stored in Chroma's embed database. The API takes as context an entry of embeddings that are generated with another openai api. With this API you can generate an intelligent chatbot with the integration of OpenAI models",
         githubLink: "https://github.com/rickyurvina/WEB-QA-API"
     },
     {
