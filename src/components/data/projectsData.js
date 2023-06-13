@@ -10,10 +10,11 @@ import workshop from "../../assets/project_images/workshop.webp";
 import api_financiero from "../../assets/project_images/api_financiero.webp";
 import p2Image from "../../assets/project_images/p2.webp";
 import p1Image from "../../assets/project_images/p2.webp";
+import notAvailable from "../../assets/project_images/not_available.webp";
 
 const projectsData = [
     {
-        projectImage: p1Image,
+        projectImage: notAvailable,
         projectTitle: "Planning System Ecuadorian Red Cross",
         projectDescription: "In collaboration with the Ecuadorian Red Cross, I spearheaded the development of a cutting-edge planning system that revolutionized operational efficiency. Powered by Laravel with Livewire, this dynamic application is seamlessly dockerized for effortless deployment through Azure's CI/CD pipeline. Boasting fortified security with Microsoft Single Sign-On (SSO), it guarantees confidential access for authorized personnel. The comprehensive suite encompasses three pivotal modules: Annual Operational Planning, Project Planning and Execution, and Budget Allocation. By consolidating these crucial components, we streamlined the entire planning process for the national Red Cross, ensuring optimal resource utilization and strategic decision-making.",
         githubLink: "https://github.com/rickyurvina/SISTEMAPLANIFICACION-CRUZROJA-LARAVEL1r",
@@ -39,33 +40,27 @@ const projectsData = [
     {
         projectImage: mintur,
         projectTitle: "Form system for the Ministry of Tourism",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         githubLinkF: "https://github.com/rickyurvina/FRONTEND-MINTURISMO",
         githubLinkB: "https://github.com/rickyurvina/BACKEND-MINTURISMO"
     },
-    // {
-    //     projectImage: p2Image,
-    //     projectTitle: "CMI PROVINCIAL GOVERNMENT OF PELILEO",
-    //     projectDescription: "Find inspiration from 50 website color themes that you can try...",
-    //     githubLink: "https://github.com/rickyurvina/CMI-PELILEO-LARAVEL"
-    // },
     {
         projectImage: workshop,
         projectTitle: "Workshop Courses",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         githubLink: "https://github.com/rickyurvina/SISTEMAWORKSHOP-NET5-ANGULAR"
     },
     {
         projectImage: procredit,
         projectTitle: "Procredit Bank",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         liveLinkUrl: "https://www.bancoprocredit.com.ec/",
         linkBtnText: "Visit Procredit Bank",
     },
     {
         projectImage: simulators,
         projectTitle: "Procredit Simulators",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         liveLinkUrl: "https://bpsm.bancoprocredit.com.ec/creditoInversionPersonal",
         linkBtnText: "Visit Simulators",
         githubLinkF: "https://github.com/rickyurvina/FRONTEND-PROCREDIT-SIMULATORS-ANGULAR",
@@ -74,7 +69,7 @@ const projectsData = [
     {
         projectImage: chatdoc,
         projectTitle: "Chat with your documents",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         liveLinkUrl: "https://thepalette.vercel.app/",
         linkBtnText: "Visit ThePalletes",
         githubLink: "https://github.com/rickyurvina/doc-chatbot"
@@ -82,29 +77,29 @@ const projectsData = [
     {
         projectImage: api_web_q_a,
         projectTitle: "Chat with your Web Page-API",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         githubLink: "https://github.com/rickyurvina/WEB-QA-API"
     },
     {
-        projectImage: p2Image,
+        projectImage: notAvailable,
         projectTitle: "EstoyFit-System Gym Client System",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         githubLinkF: "https://github.com/rickyurvina/FRONTEND-ADMIN-ESTOYFIT-REACT",
         githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL"
     },
     {
-        projectImage: p2Image,
+        projectImage: notAvailable,
         projectTitle: "EstoyFit-System Gym Administrator System",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "",
         githubLinkF: "https://github.com/rickyurvina/FRONTEND-CLIENT-ESTOYFIT-REACT",
         githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
     },
-    {
-        projectImage: p2Image,
-        projectTitle: "ID card system",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
-        githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
-    },
+    // {
+    //     projectImage: p2Image,
+    //     projectTitle: "ID card system",
+    //     projectDescription: "Find inspiration from 50 website color themes that you can try...",
+    //     githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
+    // },
 ];
 
 
