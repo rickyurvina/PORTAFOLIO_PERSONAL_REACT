@@ -93,7 +93,7 @@ const projectsData = [
     //     githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
     // },
     {
-        projectImage: p2Image,
+        projectImage: notAvailable,
         projectTitle: "ID card system",
         projectDescription: "Find inspiration from 50 website color themes that you can try...",
         githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
