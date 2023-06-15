@@ -48,22 +48,22 @@ const projectsData = [
         projectDescription: "",
         githubLink: "https://github.com/rickyurvina/SISTEMAWORKSHOP-NET5-ANGULAR"
     },
-    {
-        projectImage: procredit,
-        projectTitle: "Procredit Bank",
-        projectDescription: "",
-        liveLinkUrl: "https://www.bancoprocredit.com.ec/",
-        linkBtnText: "Visit Procredit Bank",
-    },
-    {
-        projectImage: simulators,
-        projectTitle: "Procredit Simulators",
-        projectDescription: "",
-        liveLinkUrl: "https://bpsm.bancoprocredit.com.ec/creditoInversionPersonal",
-        linkBtnText: "Visit Simulators",
-        githubLinkF: "https://github.com/rickyurvina/FRONTEND-PROCREDIT-SIMULATORS-ANGULAR",
-        githubLinkB: "https://github.com/rickyurvina/BACKEND-PROCREDIT-SIMULATORS-LARAVEL",
-    },
+    // {
+    //     projectImage: procredit,
+    //     projectTitle: "Procredit Bank",
+    //     projectDescription: "",
+    //     liveLinkUrl: "https://www.bancoprocredit.com.ec/",
+    //     linkBtnText: "Visit Procredit Bank",
+    // },
+    // {
+    //     projectImage: simulators,
+    //     projectTitle: "Procredit Simulators",
+    //     projectDescription: "",
+    //     liveLinkUrl: "https://bpsm.bancoprocredit.com.ec/creditoInversionPersonal",
+    //     linkBtnText: "Visit Simulators",
+    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-PROCREDIT-SIMULATORS-ANGULAR",
+    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-PROCREDIT-SIMULATORS-LARAVEL",
+    // },
     {
         projectImage: chatdoc,
         projectTitle: "Chat with your documents",
@@ -78,26 +78,26 @@ const projectsData = [
         projectDescription: "WebQA-API offers a state-of-the-art Q&A endpoint for web pages. Processes incoming JSON post requests that contain data from the web page and user questions. The API initially starts by chunking the data on a web page and requesting OpenAI embeds. Obtained embeds and fragmented web page documents are temporarily stored in Chroma's embed database. The API takes as context an entry of embeddings that are generated with another openai api. With this API you can generate an intelligent chatbot with the integration of OpenAI models",
         githubLink: "https://github.com/rickyurvina/WEB-QA-API"
     },
-    {
-        projectImage: notAvailable,
-        projectTitle: "EstoyFit-System Gym Client System",
-        projectDescription: "",
-        githubLinkF: "https://github.com/rickyurvina/FRONTEND-ADMIN-ESTOYFIT-REACT",
-        githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL"
-    },
-    {
-        projectImage: notAvailable,
-        projectTitle: "EstoyFit-System Gym Administrator System",
-        projectDescription: "",
-        githubLinkF: "https://github.com/rickyurvina/FRONTEND-CLIENT-ESTOYFIT-REACT",
-        githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
-    },
     // {
-    //     projectImage: p2Image,
-    //     projectTitle: "ID card system",
-    //     projectDescription: "Find inspiration from 50 website color themes that you can try...",
-    //     githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
+    //     projectImage: notAvailable,
+    //     projectTitle: "EstoyFit-System Gym Client System",
+    //     projectDescription: "",
+    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-ADMIN-ESTOYFIT-REACT",
+    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL"
     // },
+    // {
+    //     projectImage: notAvailable,
+    //     projectTitle: "EstoyFit-System Gym Administrator System",
+    //     projectDescription: "",
+    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-CLIENT-ESTOYFIT-REACT",
+    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
+    // },
+    {
+        projectImage: p2Image,
+        projectTitle: "ID card system",
+        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
+    },
 ];
 
 
