@@ -45,31 +45,29 @@ const projectsData = [
     {
         projectImage: workshop,
         projectTitle: "Workshop Courses",
-        projectDescription: "",
+        projectDescription: "Project developed in .NET Core5 and Angular",
         githubLink: "https://github.com/rickyurvina/SISTEMAWORKSHOP-NET5-ANGULAR"
     },
-    // {
-    //     projectImage: procredit,
-    //     projectTitle: "Procredit Bank",
-    //     projectDescription: "",
-    //     liveLinkUrl: "https://www.bancoprocredit.com.ec/",
-    //     linkBtnText: "Visit Procredit Bank",
-    // },
-    // {
-    //     projectImage: simulators,
-    //     projectTitle: "Procredit Simulators",
-    //     projectDescription: "",
-    //     liveLinkUrl: "https://bpsm.bancoprocredit.com.ec/creditoInversionPersonal",
-    //     linkBtnText: "Visit Simulators",
-    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-PROCREDIT-SIMULATORS-ANGULAR",
-    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-PROCREDIT-SIMULATORS-LARAVEL",
-    // },
+    {
+        projectImage: procredit,
+        projectTitle: "Procredit Bank",
+        projectDescription: "Project developed in WordPress",
+        liveLinkUrl: "https://www.bancoprocredit.com.ec/",
+        linkBtnText: "Visit Procredit Bank",
+    },
+    {
+        projectImage: simulators,
+        projectTitle: "Procredit Simulators",
+        projectDescription: "Project developed in Laravel & Angular",
+        liveLinkUrl: "https://bpsm.bancoprocredit.com.ec/creditoInversionPersonal",
+        linkBtnText: "Visit Simulators",
+        githubLinkF: "https://github.com/rickyurvina/FRONTEND-PROCREDIT-SIMULATORS-ANGULAR",
+        githubLinkB: "https://github.com/rickyurvina/BACKEND-PROCREDIT-SIMULATORS-LARAVEL",
+    },
     {
         projectImage: chatdoc,
         projectTitle: "Chat with your documents",
         projectDescription: "I develop a React application using Next.js that uses the OpenAI API, LangChaining, MongoDB and Pinecone. This application provides a unique platform for users to chat while viewing and manipulating documents. Users can create multiple topics to discuss and participate in real-time conversations. The application features seamless integration with Google OAuth for secure user authentication and stores chat logs in MongoDB associated with each user's email. One of the key features is the ability to upload multiple file types, including PDF, DOCX, and TXT formats, for each theme. These files are then converted to embeds and stored in a namespace within Pinecone. Users can easily access and retrieve these document embeds during their chat sessions, allowing for efficient document referencing and cheating. The application supports the creation of multiple chat windows for each topic, which facilitates organized and context-specific discussions. Users can effortlessly upload files, convert them to embeds, store them in Pinecone, and retrieve them in real time during their chat conversations. Additionally, integration with MongoDB ensures that chat histories are automatically saved and easily accessible for future reference.",
-        liveLinkUrl: "https://thepalette.vercel.app/",
-        linkBtnText: "Visit ThePalletes",
         githubLink: "https://github.com/rickyurvina/doc-chatbot"
     },
     {
@@ -78,24 +76,24 @@ const projectsData = [
         projectDescription: "WebQA-API offers a state-of-the-art Q&A endpoint for web pages. Processes incoming JSON post requests that contain data from the web page and user questions. The API initially starts by chunking the data on a web page and requesting OpenAI embeds. Obtained embeds and fragmented web page documents are temporarily stored in Chroma's embed database. The API takes as context an entry of embeddings that are generated with another openai api. With this API you can generate an intelligent chatbot with the integration of OpenAI models",
         githubLink: "https://github.com/rickyurvina/WEB-QA-API"
     },
-    // {
-    //     projectImage: notAvailable,
-    //     projectTitle: "EstoyFit-System Gym Client System",
-    //     projectDescription: "",
-    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-ADMIN-ESTOYFIT-REACT",
-    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL"
-    // },
-    // {
-    //     projectImage: notAvailable,
-    //     projectTitle: "EstoyFit-System Gym Administrator System",
-    //     projectDescription: "",
-    //     githubLinkF: "https://github.com/rickyurvina/FRONTEND-CLIENT-ESTOYFIT-REACT",
-    //     githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
-    // },
+    {
+        projectImage: notAvailable,
+        projectTitle: "EstoyFit-System Gym Client System",
+        projectDescription: "Project developed React JS",
+        githubLinkF: "https://github.com/rickyurvina/FRONTEND-ADMIN-ESTOYFIT-REACT",
+        githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL"
+    },
+    {
+        projectImage: notAvailable,
+        projectTitle: "EstoyFit-System Gym Administrator System",
+        projectDescription: "Project developed React JS & Laravel",
+        githubLinkF: "https://github.com/rickyurvina/FRONTEND-CLIENT-ESTOYFIT-REACT",
+        githubLinkB: "https://github.com/rickyurvina/BACKEND-ESTOYFIT-LARAVEL",
+    },
     {
         projectImage: notAvailable,
         projectTitle: "ID card system",
-        projectDescription: "Find inspiration from 50 website color themes that you can try...",
+        projectDescription: "Project developed in Laravel",
         githubLink: "https://github.com/rickyurvina/SISTEMA-CARNETS-LARAVEL.git"
     },
 ];
