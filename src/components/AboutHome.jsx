@@ -104,20 +104,18 @@ const About = ({ theme }) => {
                     </p>
                     <p className="title-4"> March 2022-Present</p>
                   </div>
-
                   <div className="graph">
                     <p className="title-1">Software Developer at Laverix</p>
                     <p className="title-2">Quito, Ecuador, Chile · Remote</p>
                     <p className="title-4">Feb 2021 - May 2023</p>
                   </div>
-
                   <div className="graph">
                     <p className="title-1">Software Developer at Proconty Solutions</p>
-                    <p className="title-4">Sep 2020 - Mar 2022</p>
+                    <p className="title-4">Ago 2020 - Dic 2021</p>
                   </div>
                   <div className="graph">
                     <p className="title-1">Web Developer at COTEDEM Solutions</p>
-                    <p className="title-4">Jan 2020 - Mar 2021</p>
+                    <p className="title-4">feb 2020 - Ago 2020</p>
                   </div>
                 </div>
               </div>

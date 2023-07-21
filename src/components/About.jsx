@@ -64,7 +64,7 @@ const About = ({ theme }) => {
 
             <div className="graph">
               <p className="title-1">Software Developer at Proconty Solutions</p>
-              <p className="title-4">Sep 2020 - Mar 2022</p>
+              <p className="title-4">Ago 2020 - Dic 2021</p>
               <p className="desc">
                 I had the opportunity to work as a Full Stack Web Developer in an exciting professional environment. During my tenure in this role, I engaged in a wide range of activities that allowed me to apply my skills and knowledge in various technologies.
 
@@ -79,7 +79,7 @@ const About = ({ theme }) => {
             </div>
             <div className="graph">
               <p className="title-1">Web Developer at COTEDEM Solutions</p>
-              <p className="title-4">Jan 2020 - Mar 2021</p>
+              <p className="title-4">Feb 2020 - Ago 2020</p>
               <p className="desc">
                 I was responsible for the development of systems using PHP, Laravel, and WordPress. I collaborated with the development team to create scalable and efficient solutions that met the requirements of the organization and its clients.
 
