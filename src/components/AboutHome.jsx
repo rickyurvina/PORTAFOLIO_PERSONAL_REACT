@@ -18,7 +18,7 @@ const About = ({ theme }) => {
         <Heading heading="about me" description="Here's my story." />
         <div className="description">
           <p className="about_me_description">
-            I’m Ricardo Urvina Cordova,a passionate and experienced software developer with a
+            I’m Ricardo Urvina,a passionate and experienced software developer with a
             strong background in full-stack development. With a degree in Systems and Computer Engineering,
             My experience encompasses developing and maintaining robust systems, creating scalable web applications,
             and implementing innovative solutions. I am skilled in cloud infrastructure deployment and management,
