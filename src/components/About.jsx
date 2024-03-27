@@ -29,7 +29,7 @@ const About = ({ theme }) => {
               <p className="title-2">
                 Adjunct Professor
               </p>
-              <p className="title-4"> March 2022-Present</p>
+              <p className="title-4"> March 2022-Jan 2024</p>
               <p className="desc">
                 I specialize in teaching subjects such as Cloud Computing, Mobile Solutions Development, and Platform-based Development Projects. My focus is on providing practical and project-oriented learning experiences with real commercial potential.
 
@@ -49,7 +49,7 @@ const About = ({ theme }) => {
             <div className="graph">
               <p className="title-1">Software Developer at Laverix</p>
               <p className="title-2">Quito, Ecuador, Chile · Remote</p>
-              <p className="title-4">Feb 2021 - May 2023</p>
+              <p className="title-4">Feb 2021 - Jul 2023</p>
               <p className="desc">
                 In my role, I took responsibility for updating and maintaining an existing project planning and management system developed in Laravel, JavaScript, and jQuery. Throughout the development of this project, I provided continuous support to the system, delivering software development, Laravel, Git, and Docker training to the client's technical team.
 
@@ -105,10 +105,10 @@ const About = ({ theme }) => {
             <div className="frontend_skill skill_type_box">
               <h2 className="skill_heading">
                 <img
-                  src={misImage}
-                  alt="Miscellaneous"
-                  width="40px"
-                  height="40px"
+                    src={misImage}
+                    alt="Miscellaneous"
+                    width="40px"
+                    height="40px"
                 />{" "}
                 Miscellaneous
               </h2>
@@ -117,11 +117,11 @@ const About = ({ theme }) => {
                 <p className="skill_name">BitBucket-GitHub</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "100%",
-                      background: "linear-gradient(90deg,#136fc3, #76ef66)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "100%",
+                        background: "linear-gradient(90deg,#136fc3, #76ef66)",
+                      }}
                   ></div>
                 </div>
               </div>
@@ -130,11 +130,11 @@ const About = ({ theme }) => {
                 <p className="skill_name">Linux</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "60%",
-                      background: "linear-gradient(to right, #00b09b, #96c93d)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "60%",
+                        background: "linear-gradient(to right, #00b09b, #96c93d)",
+                      }}
                   ></div>
                 </div>
               </div>
@@ -143,11 +143,11 @@ const About = ({ theme }) => {
                 <p className="skill_name">Coppelia VREP</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "82%",
-                      background: "linear-gradient(to right, #1aa37a,#9dffb3)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "82%",
+                        background: "linear-gradient(to right, #1aa37a,#9dffb3)",
+                      }}
                   ></div>
                 </div>
               </div>
@@ -156,95 +156,120 @@ const About = ({ theme }) => {
                 <p className="skill_name">Matlab</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "65%",
-                      background: "linear-gradient(90deg,#136fc3, #76ef66)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "65%",
+                        background: "linear-gradient(90deg,#136fc3, #76ef66)",
+                      }}
                   ></div>
                 </div>
               </div>
 
-              
+              <div className="skill_data">
+                <p className="skill_name">R and R Studio</p>
+                <div className="progress">
+                  <div
+                      className="progress-value"
+                      style={{
+                        width: "65%",
+                        background: "linear-gradient(90deg,#136fc3, #76ef66)",
+                      }}
+                  ></div>
+                </div>
+              </div>
+
+
               <div className="skill_data">
                 <p className="skill_name">Scrum</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "100%",
-                      background: "linear-gradient(to right, #00b09b, #96c93d)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "100%",
+                        background: "linear-gradient(to right, #00b09b, #96c93d)",
+                      }}
                   ></div>
                 </div>
               </div>
 
-              
-           
+
             </div>
 
             <div className="frontend_skill skill_type_box">
-            <h2 className="skill_heading">
+              <h2 className="skill_heading">
                 <img
-                  src={databaseImage}
-                  alt="Databases"
-                  width="40px"
-                  height="40px"
+                    src={databaseImage}
+                    alt="Databases"
+                    width="40px"
+                    height="40px"
                 />{" "}
                 Databases
               </h2>
 
-            <div className="skill_data">
+              <div className="skill_data">
                 <p className="skill_name">MySQL</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "100%",
-                      background: "linear-gradient(to right, #1aa37a,#9dffb3)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "100%",
+                        background: "linear-gradient(to right, #1aa37a,#9dffb3)",
+                      }}
                   ></div>
                 </div>
               </div>
 
-              
+
               <div className="skill_data">
                 <p className="skill_name">PostgreSQL</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "85%",
-                      background: "linear-gradient(90deg,#136fc3, #76ef66)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "85%",
+                        background: "linear-gradient(90deg,#136fc3, #76ef66)",
+                      }}
                   ></div>
                 </div>
               </div>
 
-              
+
               <div className="skill_data">
                 <p className="skill_name">SQLServer</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "70%",
-                      background: "linear-gradient(to right, #00b09b, #96c93d)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "70%",
+                        background: "linear-gradient(to right, #00b09b, #96c93d)",
+                      }}
                   ></div>
                 </div>
               </div>
 
-              
+
               <div className="skill_data">
                 <p className="skill_name">MongoDb</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "55%",
-                      background: "linear-gradient(to right, #1aa37a,#9dffb3)",
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "55%",
+                        background: "linear-gradient(to right, #1aa37a,#9dffb3)",
+                      }}
+                  ></div>
+                </div>
+              </div>
+
+              <div className="skill_data">
+                <p className="skill_name">Firebase Stack</p>
+                <div className="progress">
+                  <div
+                      className="progress-value"
+                      style={{
+                        width: "55%",
+                        background: "linear-gradient(to right, #1aa37a,#9dffb3)",
+                      }}
                   ></div>
                 </div>
               </div>

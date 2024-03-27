@@ -18,25 +18,24 @@ const About = ({ theme }) => {
         <Heading heading="about me" description="Here's my story." />
         <div className="description">
           <p className="about_me_description">
-            I’m Ricardo Urvina,a passionate and experienced software developer with a
-            strong background in full-stack development. With a degree in Systems and Computer Engineering,
-            My experience encompasses developing and maintaining robust systems, creating scalable web applications,
-            and implementing innovative solutions. I am skilled in cloud infrastructure deployment and management,
-            utilizing Microsoft Azure and AWS. Additionally, my proficiency extends to database administration,
-            API integration, and DevOps practices. I am a dedicated and motivated professional,
-            committed to delivering high-quality code and driving technological advancements.
-            With a strong aptitude for problem-solving and a collaborative mindset.
+            I'm Ricardo Urvina, a dedicated and motivated professional with a degree in Systems and Computer Engineering. I have a strong background in full-stack development, including native and hybrid mobile and web application development. My experience encompasses developing and maintaining robust systems, creating scalable web applications, and implementing innovative solutions.
+
+            I hold a Master's degree in Computer Science, during which I conducted research on autonomous robot navigation. Currently, I am a Ph.D. student in Engineering Sciences, specializing in Computer Science, where I am investigating human-computer interaction.
+
+            In addition to my academic and professional pursuits, I have experience teaching at the university level. I have taught courses on web development, cloud computing, and mobile application development, further expanding my knowledge and skills in these areas.
+
+            I am skilled in cloud infrastructure deployment and management, utilizing Microsoft Azure and AWS. Additionally, my proficiency extends to database administration, API integration, and DevOps practices. I am committed to delivering high-quality code and driving technological advancements, with a strong aptitude for problem-solving and a collaborative mindset.
           </p>
 
           <ul className="about_me_list">
             <li>
-              🌱 I’m currently learning OpenAI, LangChain, MongoDB, NodeJs and NextJs
+              🌱 I’m currently learning Human-Computer Interaction (IHC), OpenAI, LangChain, MongoDB, NodeJs, NextJs.
             </li>
             <li>
               💻 All of my projects are available at{" "}
               <Link to="/projects">rickyurvina/projects</Link>
             </li>
-            <li>💬 Ask me about BackEnd , FrontEnd , Docker, Azure</li>
+            <li>💬 Ask me about BackEnd , FrontEnd , Docker, Azure, Mobile Robotics</li>
             <li>💪  Review the detailed responsibilities of my roles in my jobs at {""}
               <Link to="/about">rickyurvina/about</Link>
             </li>
@@ -44,10 +43,6 @@ const About = ({ theme }) => {
               📫 How to reach me{" "}
               <a href="mailto:ricky_uc12@hotmail.com.com">ricky_uc12@hotmail.com</a>
             </li>
-            {/* <li>
-              ⚡ Fun fact By Profesion I am a Web Developer but by Passion I am
-              an Academic
-            </li> */}
           </ul>
 
         </div>
@@ -64,12 +59,17 @@ const About = ({ theme }) => {
                 </p>
 
                 <div className="journey_graph">
-                  
-                <div className="graph">
+                  <div className="graph">
+                    <p className="title-1">Pontificia Universidad Católica de Chile</p>
+                    <p className="title-2">Ph.D. in Engineering Sciences, Computer Science</p>
+                    <p className="title-3">Santiago - Chile</p>
+                    <p className="title-4">March 2024 - Present</p>
+                  </div>
+                  <div className="graph">
                     <p className="title-1">Universidad Católica del Norte</p>
                     <p className="title-2">Master's Degree in Computer Science</p>
                     <p className="title-3">Antofagasta - Chile</p>
-                    <p className="title-4">March 2022 - Present</p>
+                    <p className="title-4">March 2022 - March 2024</p>
                   </div>
                   <div className="graph">
                     <p className="title-1">
@@ -80,10 +80,8 @@ const About = ({ theme }) => {
                     </p>
                     <p className="title-4"> Sep 2020</p>
                   </div>
-
                 </div>
               </div>
-
             </div>
             <div className="frontend_skill skill_type_box-2">
               <div className="education_and_experience">
@@ -102,12 +100,12 @@ const About = ({ theme }) => {
                     <p className="title-2">
                       Adjunct Professor
                     </p>
-                    <p className="title-4"> March 2022-Present</p>
+                    <p className="title-4"> March 2022-Jan 2024</p>
                   </div>
                   <div className="graph">
                     <p className="title-1">Software Developer at Laverix</p>
                     <p className="title-2">Quito, Ecuador, Chile · Remote</p>
-                    <p className="title-4">Feb 2021 - May 2023</p>
+                    <p className="title-4">Feb 2021 - Jul 2023</p>
                   </div>
                   <div className="graph">
                     <p className="title-1">Software Developer at Proconty Solutions</p>
@@ -153,7 +151,7 @@ const About = ({ theme }) => {
               </div>
 
               <div className="skill_data">
-                <p className="skill_name">ExpressJs</p>
+                <p className="skill_name">NodeJs-ExpressJs</p>
                 <div className="progress">
                   <div
                     className="progress-value"
@@ -195,10 +193,10 @@ const About = ({ theme }) => {
             <div className="frontend_skill skill_type_box">
               <h2 className="skill_heading">
                 <img
-                  src={frontImage}
-                  alt="FRONT-END"
-                  width="40px"
-                  height="40px"
+                    src={frontImage}
+                    alt="FRONT-END"
+                    width="40px"
+                    height="40px"
                 />{" "}
                 FRONT-END
               </h2>
@@ -207,24 +205,24 @@ const About = ({ theme }) => {
                 <p className="skill_name">React JS & Native</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "90%",
-                      background: "linear-gradient(to right, #61DAFB, #20232A)"
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "90%",
+                        background: "linear-gradient(to right, #61DAFB, #20232A)"
+                      }}
                   ></div>
                 </div>
               </div>
 
               <div className="skill_data">
-                <p className="skill_name">Angular-JavaScript</p>
+                <p className="skill_name">Angular-JavaScript-TypeScript</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "85%",
-                      background: "linear-gradient(to right, #DD0031, #C3002F)"
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "85%",
+                        background: "linear-gradient(to right, #DD0031, #C3002F)"
+                      }}
                   ></div>
                 </div>
               </div>
@@ -233,11 +231,37 @@ const About = ({ theme }) => {
                 <p className="skill_name">TailwindCss</p>
                 <div className="progress">
                   <div
-                    className="progress-value"
-                    style={{
-                      width: "90%",
-                      background: "linear-gradient(to right, #06B6D4, #2563EB)"
-                    }}
+                      className="progress-value"
+                      style={{
+                        width: "90%",
+                        background: "linear-gradient(to right, #06B6D4, #2563EB)"
+                      }}
+                  ></div>
+                </div>
+              </div>
+
+              <div className="skill_data">
+                <p className="skill_name">Vue.js</p>
+                <div className="progress">
+                  <div
+                      className="progress-value"
+                      style={{
+                        width: "90%",
+                        background: "linear-gradient(to right, #35495E, #42B883)"
+                      }}
+                  ></div>
+                </div>
+              </div>
+
+              <div className="skill_data">
+                <p className="skill_name">Android Studio</p>
+                <div className="progress">
+                  <div
+                      className="progress-value"
+                      style={{
+                        width: "90%",
+                        background: "linear-gradient(to right, #3DDC84, #282828)"
+                      }}
                   ></div>
                 </div>
               </div>
@@ -246,10 +270,10 @@ const About = ({ theme }) => {
             <div className="frontend_skill skill_type_box">
               <h2 className="skill_heading">
                 <img
-                  src={toolsImage}
-                  alt=" Tools & Technologies"
-                  width="40px"
-                  height="40px"
+                    src={toolsImage}
+                    alt=" Tools & Technologies"
+                    width="40px"
+                    height="40px"
                 />{" "}
                 Tools & Technologies
               </h2>

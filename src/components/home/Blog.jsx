@@ -1,17 +1,14 @@
 import React from "react";
 import slam from "../../assets/blog_images/slam.png";
 import nmpc from "../../assets/blog_images/nmpc.png";
+import rrtMining from "../../assets/blog_images/rrtMining.png";
+import nmpcinfornor from "../../assets/blog_images/nmpcinfornor.jpg";
 import Blogcard from "./Blogcard";
-import slamPdf from "../../assets/papers/slam.pdf";
-import nmpcPdf from "../../assets/papers/nmpc.pdf";
+import { Link } from "react-router-dom";
+
 const Blog = ({ theme }) => {
-  const handleCardClick = (filePath) => {
-    const link = document.createElement("a");
-    link.href = filePath;
-    link.download = filePath.split("/").pop();
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleCardClick = (url) => {
+    window.open(url, "_blank");
   };
 
   return (
@@ -24,27 +21,35 @@ const Blog = ({ theme }) => {
 
         <div className="blogs_container">
           <Blogcard
-            blogImage={slam}
-            blogHeading="Simultaneous location and mapping for control of an autonomous mobile robot using LiDAR point cloud scans and Machine Learning methods"
-            blogPublishedDate="Sep, 2022 (Under Publication- Ingeneriare, Chile)"
-            onClick={() => handleCardClick(nmpcPdf)}
+              blogImage={nmpc}
+              blogHeading="An Nonlinear Model Predictive Control Framework for Trajectory Planning of Skid-Steer Mobile Robots in Agricultural Environments"
+              blogPublishedDate="July, 2023 (IEEE CONFERENCE ON AGRIFOOD ELECTRONICS - CAFE TORINO, SEPTEMBER 25-27)"
+              onClick={() => handleCardClick("https://ieeexplore.ieee.org/document/10291643")}
           ></Blogcard>
-
           <Blogcard
-            blogImage={nmpc}
-            blogHeading="An Nonlinear Model Predictive Control Framework
-            for Trajectory Planning of Skid-Steer Mobile
-            Robots in Agricultural Environments"
-            blogPublishedDate="July, 2023 (Under revision-  IEEE CONFERENCE ON AGRIFOOD ELECTRONICS - CAFE TORINO, SEPTEMBER 25-27)"
-            onClick={() => handleCardClick(slamPdf)}
+            blogImage={rrtMining}
+            blogHeading="An RRT*-informed Q-learning strategy for path planning of unicycle-type mobile robots in open-pit mines"
+            blogPublishedDate="Sep, 2023 (Revista Iberomaricana de Automátoca e Informática Industrial, Chile)"
+            onClick={() => handleCardClick("https://infonorchile.cl/event/1218114/attachments/2616506/4679692/Abstracts_Papers_Aprobados.pdf")}
+          ></Blogcard>
+          <Blogcard
+            blogImage={nmpcinfornor}
+            blogHeading="Potential Field-Based Trajectory Planning using Nonlinear Model Predictive Controller for Obstacle Avoidance of Autonomous Mobile Robots"
+            blogPublishedDate="Sep, 2023 (INFONOR, Chile)"
+            onClick={() => handleCardClick("https://indico.cern.ch/event/1218114/contributions/5535449/contribution.pdf")}
+          ></Blogcard>
+          <Blogcard
+              blogImage={slam}
+              blogHeading="Simultaneous location and mapping for control of an autonomous mobile robot using LiDAR point cloud scans and Machine Learning methods"
+              blogPublishedDate="Sep, 2022 (Ingeneriare, Chile)"
+              onClick={() => handleCardClick("https://www.scielo.cl/pdf/ingeniare/v31/0718-3305-ingeniare-31-13.pdf")}
           ></Blogcard>
 
-     
         </div>
 
-        {/* <Link to="/blog" className="blog_link">
-          See all articles<i className="ri-arrow-right-s-line"></i>
-        </Link> */}
+        <Link to="https://orcid.org/0000-0001-8293-551X" target="_blank" className="blog_link">
+        See all articles<i className="ri-arrow-right-s-line"></i>
+        </Link>
       </section>
     </>
   );
