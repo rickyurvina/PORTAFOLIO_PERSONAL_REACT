@@ -1,7 +1,4 @@
 import React from "react";
-import blog2Image from "../../assets/blog_images/excecontext.webp";
-import blog3Image from "../../assets/blog_images/hoisting.webp";
-import iife from "../../assets/blog_images/iife.png";
 import { Link } from "react-router-dom";
 import Blogcard from "./Blogcard";
 

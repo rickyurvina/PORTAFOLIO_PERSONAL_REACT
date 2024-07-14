@@ -17,10 +17,6 @@ import rayImage from "./assets/rays_bg.png";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// import particular blog components
-import Iife from "./components/All_blogs/Iife";
-import Excecontext from "./components/All_blogs/Excecontext";
-import Hoisting from "./components/All_blogs/Hoisting";
 
 function App() {
   useEffect(() => {

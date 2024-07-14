@@ -1,6 +1,5 @@
 import React from "react";
-import devImage2 from "../../assets/rickyurvina.jpg"
-import { Link } from "react-router-dom";
+import profilePic from "../../assets/profile_pic.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -12,7 +11,7 @@ const Heading = ({ theme }) => {
           I'm <span>Ricardo Urvina</span>. I'm a passionate backend and frontend developer from Ecuador.
         </h1>
         <div className="devloper_img">
-          <LazyLoadImage alt="ricardo urvina" effect="blur" src={devImage2} />
+          <LazyLoadImage alt="ricardo urvina" effect="blur" src={profilePic} />
         </div>
       </div>
       {/* <div className="btn_group">
