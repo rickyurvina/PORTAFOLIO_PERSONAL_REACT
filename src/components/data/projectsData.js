@@ -10,13 +10,20 @@ import workshop from "../../assets/project_images/workshop.webp";
 import api_financiero from "../../assets/project_images/api_financiero.webp";
 import notAvailable from "../../assets/project_images/not_available.webp";
 import rrtHarvesting from "../../assets/blog_images/rrt_terrain.jpg"
+import olespana from "../../assets/project_images/olespana.webp"
 
 const projectsData = [
     {
+        projectImage: olespana,
+        projectTitle: "Web site for Olespaña restaurant located in Boston. This site was developed with Wordpress and Elementor.",
+        projectDescription: "This project was developed with Wordpress and Elementor. The site has a menu section, a gallery, a contact form, and a reservation system. The site is fully responsive and has a modern design.",
+        liveLinkUrl: "https://olespana.com/",
+    },
+    {
         projectImage: rrtHarvesting,
-        projectTitle:"An Integrated Route and Path Planning Strategy for Skid-Steer Mobile Robots in Assisted Harvesting Tasks with Terrain Traversability Constraint",
-        projectDescription:"This article presents a combined route and path planning strategy to guide Skid-Steer Mobile Robots (SSMRs) in scheduled harvest tasks within expansive crop rows with complex terrain conditions. The proposed strategy integrates: i) a global planning algorithm based on the Traveling Salesman Problem under the Capacitated Vehicle Routing approach and Optimization Routing (OR-tools from Google) to prioritize harvesting positions by minimum path length, unexplored harvest points, and vehicle payload capacity, and ii) a local planning strategy using Informed Rapidly-exploring Random Tree",
-        githubLink:"https://github.com/rickyurvina/path_planning_python_coppelia"
+        projectTitle: "An Integrated Route and Path Planning Strategy for Skid-Steer Mobile Robots in Assisted Harvesting Tasks with Terrain Traversability Constraint",
+        projectDescription: "This article presents a combined route and path planning strategy to guide Skid-Steer Mobile Robots (SSMRs) in scheduled harvest tasks within expansive crop rows with complex terrain conditions. The proposed strategy integrates: i) a global planning algorithm based on the Traveling Salesman Problem under the Capacitated Vehicle Routing approach and Optimization Routing (OR-tools from Google) to prioritize harvesting positions by minimum path length, unexplored harvest points, and vehicle payload capacity, and ii) a local planning strategy using Informed Rapidly-exploring Random Tree",
+        githubLink: "https://github.com/rickyurvina/path_planning_python_coppelia"
     },
     {
         projectImage: notAvailable,
