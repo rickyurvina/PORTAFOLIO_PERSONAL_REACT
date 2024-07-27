@@ -70,6 +70,14 @@ section.blog_section {
     color: var(--text-secondary);
 }
 
+.blog_text a.doi_url {
+    margin-top: 1rem;
+    font-family: var(--font-inter);
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--text-highlight);
+}
+
 .blog_section a.blog_link {
     display: inline-flex;
     margin-top: 3rem;

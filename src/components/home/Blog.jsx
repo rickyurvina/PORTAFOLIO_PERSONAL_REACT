@@ -4,7 +4,7 @@ import nmpc from "../../assets/blog_images/nmpc.png";
 import rrtMining from "../../assets/blog_images/rrtMining.png";
 import nmpcInfornor from "../../assets/blog_images/nmpcinfornor.jpg";
 import rrtHarvesting from "../../assets/blog_images/rrt_terrain.jpg";
-import Blogcard from "./Blogcard";
+import PaperCard from "./PaperCard.jsx";
 import { Link } from "react-router-dom";
 
 const Blog = ({ theme }) => {
@@ -21,36 +21,40 @@ const Blog = ({ theme }) => {
         <h3>Check out a few of my recent publishings.</h3>
 
         <div className="blogs_container">
-          <Blogcard
-              blogImage={rrtHarvesting}
-              blogHeading="An Integrated Route and Path Planning Strategy for Skid-Steer Mobile Robots in Assisted Harvesting Tasks with Terrain Traversability Constraint"
-              blogPublishedDate="July, 2024 Agriculture MDPI (under revision) Preprint available"
-              onClick={() => handleCardClick("https://doi.org/10.20944/preprints202406.0326.v1")}
-          ></Blogcard>
-          <Blogcard
-              blogImage={nmpc}
-              blogHeading="An Nonlinear Model Predictive Control Framework for Trajectory Planning of Skid-Steer Mobile Robots in Agricultural Environments"
-              blogPublishedDate="July, 2023 (IEEE CONFERENCE ON AGRIFOOD ELECTRONICS - CAFE TORINO, SEPTEMBER 25-27)"
-              onClick={() => handleCardClick("https://ieeexplore.ieee.org/document/10291643")}
-          ></Blogcard>
-          <Blogcard
-            blogImage={rrtMining}
-            blogHeading="An RRT*-informed Q-learning strategy for path planning of unicycle-type mobile robots in open-pit mines"
-            blogPublishedDate="Sep, 2023 (Revista Iberomaricana de Automátoca e Informática Industrial, Chile)"
-            onClick={() => handleCardClick("https://infonorchile.cl/event/1218114/attachments/2616506/4679692/Abstracts_Papers_Aprobados.pdf")}
-          ></Blogcard>
-          <Blogcard
-            blogImage={nmpcInfornor}
-            blogHeading="Potential Field-Based Trajectory Planning using Nonlinear Model Predictive Controller for Obstacle Avoidance of Autonomous Mobile Robots"
-            blogPublishedDate="Sep, 2023 (INFONOR, Chile)"
+          <PaperCard
+              paperImage={rrtHarvesting}
+              paperHeading="An Integrated Route and Path Planning Strategy for Skid-Steer Mobile Robots in Assisted Harvesting Tasks with Terrain Traversability Constraint"
+              paperPublishedDate="July, 2024 Agriculture MDPI"
+              paperDOI={"https://doi.org/10.3390/agriculture14081206"}
+              onClick={() => handleCardClick("https://doi.org/10.3390/agriculture14081206")}
+          ></PaperCard>
+          <PaperCard
+              paperImage={nmpc}
+              paperHeading="An Nonlinear Model Predictive Control Framework for Trajectory Planning of Skid-Steer Mobile Robots in Agricultural Environments"
+              paperPublishedDate="July, 2023 IEEE CONFERENCE ON AGRIFOOD ELECTRONICS - CAFE TORINO, SEPTEMBER 25-27"
+              paperDOI={"https://doi.org/10.1109/CAFE58535.2023.10291643"}
+              onClick={() => handleCardClick("https://doi.org/10.1109/CAFE58535.2023.10291643")}
+          ></PaperCard>
+          <PaperCard
+            paperImage={rrtMining}
+            paperHeading="An RRT*-informed Q-learning strategy for path planning of unicycle-type mobile robots in open-pit mines"
+            paperPublishedDate="Sep, 2023 Revista Iberomaricana de Automátoca e Informática Industrial"
+            paperDOI={"https://doi.org/10.4995/riai.2024.21581"}
+            onClick={() => handleCardClick("https://doi.org/10.4995/riai.2024.21581")}
+          ></PaperCard>
+          <PaperCard
+            paperImage={nmpcInfornor}
+            paperHeading="Potential Field-Based Trajectory Planning using Nonlinear Model Predictive Controller for Obstacle Avoidance of Autonomous Mobile Robots"
+            paperPublishedDate="Sep, 2023 INFONOR, Chile"
             onClick={() => handleCardClick("https://indico.cern.ch/event/1218114/contributions/5535449/contribution.pdf")}
-          ></Blogcard>
-          <Blogcard
-              blogImage={slam}
-              blogHeading="Simultaneous location and mapping for control of an autonomous mobile robot using LiDAR point cloud scans and Machine Learning methods"
-              blogPublishedDate="Sep, 2022 (Ingeneriare, Chile)"
-              onClick={() => handleCardClick("https://www.scielo.cl/pdf/ingeniare/v31/0718-3305-ingeniare-31-13.pdf")}
-          ></Blogcard>
+          ></PaperCard>
+          <PaperCard
+              paperImage={slam}
+              paperHeading="Simultaneous location and mapping for control of an autonomous mobile robot using LiDAR point cloud scans and Machine Learning methods"
+              paperPublishedDate="Aug, 2023 Ingeneriare. Revista chilena de Ingeniería"
+              paperDOI={"http://dx.doi.org/10.4067/s0718-33052023000100213"}
+              onClick={() => handleCardClick("http://dx.doi.org/10.4067/s0718-33052023000100213")}
+          ></PaperCard>
 
         </div>
 

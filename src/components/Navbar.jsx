@@ -22,7 +22,7 @@ const Navbar = ({ theme, setTheme }) => {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      document.title = "Ricardo Urvina FullStack Developer";
+      document.title = "Ricardo Urvina - Home";
     } else {
       let getLocation = String(location.pathname).slice(1);
       getLocation =

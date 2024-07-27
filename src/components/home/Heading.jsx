@@ -8,7 +8,7 @@ const Heading = ({ theme }) => {
     <main className={theme === "dark" ? "dark" : "light"}>
       <div className="heading">
         <h1 className="heading_text">
-          I'm <span>Ricardo Urvina</span>. I'm a passionate backend and frontend developer from Ecuador.
+          I'm <span>Ricardo Urvina</span>. I'm a PhD Student in Engineering Sciences in the area of Computer Sciences.
         </h1>
         <div className="devloper_img">
           <LazyLoadImage alt="ricardo urvina" effect="blur" src={profilePic} />

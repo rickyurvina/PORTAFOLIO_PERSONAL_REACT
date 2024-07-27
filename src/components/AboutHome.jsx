@@ -31,7 +31,7 @@ const About = ({theme}) => {
 
                     <ul className="about_me_list">
                         <li>
-                            🌱 I’m currently learning Human-Computer Interaction (IHC), Computer Vision, Machine
+                            🌱 I’m currently learning Human-Computer Interaction (HCI), Computer Vision, Machine
                             Learning, Artificial Intelligence, and Deep Learning.
                         </li>
                         <li>
@@ -66,7 +66,8 @@ const About = ({theme}) => {
                                 <div className="journey_graph">
                                     <div className="graph">
                                         <p className="title-1">Pontificia Universidad Católica de Chile</p>
-                                        <p className="title-2">Ph.D. in Engineering Sciences, Computer Science</p>
+                                        <p className="title-2">Student of Ph.D. in Engineering Sciences, Computer
+                                            Science</p>
                                         <p className="title-3">Santiago - Chile</p>
                                         <p className="title-4">March 2024 - Present</p>
                                     </div>
@@ -117,15 +118,17 @@ const About = ({theme}) => {
                                     </div>
                                     <div className="graph">
                                         <p className="title-1">Software Developer at Laverix</p>
-                                        <p className="title-2">Quito, Ecuador, Chile · Remote</p>
+                                        <p className="title-2">Ecuador · Remote</p>
                                         <p className="title-4">Feb 2021 - Jul 2023</p>
                                     </div>
                                     <div className="graph">
                                         <p className="title-1">Software Developer at Proconty Solutions</p>
+                                        <p className="title-2">Quito, Ecuador · Remote</p>
                                         <p className="title-4">Ago 2020 - Dic 2021</p>
                                     </div>
                                     <div className="graph">
                                         <p className="title-1">Web Developer at COTEDEM Solutions</p>
+                                        <p className="title-2">Quito, Ecuador · Remote</p>
                                         <p className="title-4">feb 2020 - Ago 2020</p>
                                     </div>
                                 </div>
